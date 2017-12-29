@@ -20,8 +20,4 @@ for (dirpath, dirnames, filenames) in walk(mypath):
 
 # Print a formated string that displays all the variables' values
 print("dirpath:\n {}\n\ndirnames:\n {}\n\nfilenames:\n {}\n\n".format(
-																dirpath_list,
-													   			dirnames_list, 
-													   			filenames_list
-													   			)
-)
+	dirpath_list,dirnames_list, filenames_list))
